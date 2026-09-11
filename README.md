@@ -2,9 +2,10 @@
 
 Demo of running standard PAGI application via WebAssembly (WASM) on a Cloudflare Worker. This demo uses the
 WebDyne build of zeroperl as a WebAssembly instance to pass requests to a Perl PAGI application,
-using the standard PAGI::Spec variables for $scope, $send and $receive. Although it uses the
+using the standard [https://metacpan.org/dist/PAGI/view/lib/PAGI/Spec.pod](PAGI::Spec) variables for $scope, $receive
+and $send. Although it uses the
 WebDyne build of zeroperl to do this, no WebDyne components are needed and any standard PAGI
-application should run.
+application should function.
 
 ## Quick Start
 
