@@ -1,7 +1,7 @@
-# PAGI on Cloudflare Worker via WebDyne WASM
+# PAGI on Cloudflare Worker via WebDyne WebAssembly (WASM)
 
-Demo of running standard PAGI application via WASM on a Cloudflare Worker. This demo uses the
-WebDyne build of zeroperl as a WebAssembly instance to pass requests to a Perl PAGI application
+Demo of running standard PAGI application via WebAssembly (WASM) on a Cloudflare Worker. This demo uses the
+WebDyne build of zeroperl as a WebAssembly instance to pass requests to a Perl PAGI application,
 using the standard PAGI::Spec variables for $scope, $send and $receive. Although it uses the
 WebDyne build of zeroperl to do this, no WebDyne components are needed and any standard PAGI
 application should run.
@@ -32,10 +32,10 @@ pagi-server app/app.pagi
 ## Further Reading
 
 More information on WebDyne and in particular startup options for the Cloudflare Wrangler Worker
-instance are available on the (https://github.com/aspeer/zeroperl/blob/main/WEBDYNE.md)[WebDyne
-Zeroperl WASM] site.
+instance are available on the [https://github.com/aspeer/zeroperl/blob/main/WEBDYNE.md](WebDyne
+Zeroperl WASM) site.
 
-You can read more about the WebDyne engine at (https://webdyne.org)[webdyne.org]
+You can read more about the WebDyne engine at [https://webdyne.org]
 
 
 
