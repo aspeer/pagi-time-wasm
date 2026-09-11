@@ -6,7 +6,7 @@ WebDyne build of zeroperl to do this, no WebDyne components are needed and any s
 
 This is a very simple demo which returns the server localtime, however the same principles for
 deployment should apply to more complex PAGI applications. You can see it running at
-[https://pagi-time-wasm.andrew-speer.workers.dev/]
+[https://pagi-time-wasm.andrew-speer.workers.dev/]()
 
 ## Quick Start
 
