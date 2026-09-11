@@ -18,6 +18,6 @@ async sub {
     });
     await $send_cr->({
         type => 'http.response.body',
-        body => 'Server localtime is: ' . scalar(localtime())." UTC\n",
+        body => 'Server localtime is: ' . scalar(localtime()). "\n",
     });
 };
