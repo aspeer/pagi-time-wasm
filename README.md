@@ -13,7 +13,7 @@ Use a recent Node.js installation (22 or later) and npm clone this repo and init
 git clone https://github.com/aspeer/pagi-time-wasm.git
 npm init -y
 npm install @webdyne/webdyne-zeroperl@1
-npx webdyne-cloudflare init
+npx webdyne-cloudflare init --entry app.pagi
 npm run dev
 ```
 
