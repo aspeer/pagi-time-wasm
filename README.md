@@ -10,7 +10,7 @@ application should function.
 Use a recent Node.js installation (22 or later) and npm clone this repo and initialize:
 
 ```bash
-git clone http://github.com/aspeer/pagi-time-wasm
+git clone https://github.com/aspeer/pagi-time-wasm.git
 npm init -y
 npm install @webdyne/webdyne-zeroperl@1
 npx webdyne-cloudflare init
