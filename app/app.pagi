@@ -1,0 +1,23 @@
+use strict;
+use warnings;
+use Future::AsyncAwait;
+
+async sub {
+    my ($scope_hr, $receive_cr, $send_cr)=@_;
+
+    die "unsupported scope type: $scope_hr->{'type'}\n"
+        unless $scope_hr->{'type'} eq 'http';
+
+    await $send_cr->({
+        type    => 'http.response.start',
+        status  => 200,
+        headers => [
+            ['content-type', 'text/plain; charset=utf-8'],
+            ['cache-control', 'no-store'],
+        ],
+    });
+    await $send_cr->({
+        type => 'http.response.body',
+        body => 'Server localtime is: ' . scalar(localtime())." UTC\n",
+    });
+};
