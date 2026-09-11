@@ -6,7 +6,7 @@ WebDyne build of zeroperl to do this, no WebDyne components are needed and any s
 
 This is a very simple demo which returns the server localtime, however the same principles for
 deployment should apply to more complex PAGI applications. You can see it running at
-[https://pagi-time-wasm.andrew-speer.workers.dev/]()
+>https://pagi-time-wasm.andrew-speer.workers.dev>
 
 ## Quick Start
 
@@ -49,7 +49,7 @@ pagi-server app/app.pagi
 More information on WebDyne and in particular startup options for the Cloudflare Wrangler Worker
 instance are available on the [WebDyne:: ZeroPerl](https://github.com/aspeer/zeroperl/blob/main/WEBDYNE.md) site.
 
-You can read more about the WebDyne engine at [https://webdyne.org]()
+You can read more about the WebDyne engine at <https://webdyne.org>
 
 
 
