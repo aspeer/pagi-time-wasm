@@ -5,7 +5,8 @@ using the standard [PAGI::Spec](https://metacpan.org/dist/PAGI/view/lib/PAGI/Spe
 WebDyne build of zeroperl to do this, no WebDyne components are needed and any standard PAGI application should function.
 
 This is a very simple demo which returns the server localtime, however the same principles for
-deployment should apply to more complex PAGI applications.
+deployment should apply to more complex PAGI applications. You can see it running at
+[https://pagi-time-wasm.andrew-speer.workers.dev/]
 
 ## Quick Start
 
